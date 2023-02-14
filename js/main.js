@@ -31,6 +31,7 @@ FRAME1.append('line')
 // function that adds points to the plot (both default and user)
 function add_point() {
 
+	// all console.log are used for debugging
 	console.log('drawing point');
 	console.log(arguments.length)
 

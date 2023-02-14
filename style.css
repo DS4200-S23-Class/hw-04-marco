@@ -13,37 +13,43 @@ body{
 	flex-wrap: wrap;
 }
 
+/* left column takes 60% of the page*/
 #left_col {
 	width: 60%;
 	flex-wrap: flex;
 	flex-direction: column;
 }
 
+/* right column takes 40% of the page*/
 #right_col {
-  text-align: left;
-	 max-width: 40%;
+ 	width: 40%;
+	flex-wrap: flex;
+	flex-direction: column;
   }
 
-
+/* set the color and width of axis*/
 .x_axis {
-	stroke: rgb(0,0,0);
-	stroke-width: 3;
+	stroke: rgb(0,0,100);
+	stroke-width: 10;
 }
 
 .y_axis {
-	stroke: rgb(0,0,0);
-	stroke-width: 3;
+	stroke: rgb(0,0,100);
+	stroke-width: 10;
 }
 
+
+/* style of points*/
+.point {
+	fill: rgb(100, 200, 50);
+}
+
+/* add color to hover*/
 .point:hover{
-	fill: rgb(255, 0, 0);
+	fill: rgb(100, 0, 50);
 }
 
+/* style of acknowledgement*/
 #ack {
 	text-align: center;
-}
-
-.point:border{
-	stroke-width: null;
-	stroke: null;
 }
