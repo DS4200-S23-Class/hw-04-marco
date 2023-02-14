@@ -1,0 +1,49 @@
+body{
+	font-family: Arial;
+	font-size: 15px;
+}
+
+#centered_header {
+	text-align: center;
+}
+
+.flex-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#left_col {
+	width: 60%;
+	flex-wrap: flex;
+	flex-direction: column;
+}
+
+#right_col {
+  text-align: left;
+	 max-width: 40%;
+  }
+
+
+.x_axis {
+	stroke: rgb(0,0,0);
+	stroke-width: 3;
+}
+
+.y_axis {
+	stroke: rgb(0,0,0);
+	stroke-width: 3;
+}
+
+.point:hover{
+	fill: rgb(255, 0, 0);
+}
+
+#ack {
+	text-align: center;
+}
+
+.point:border{
+	stroke-width: null;
+	stroke: null;
+}

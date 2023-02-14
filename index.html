@@ -3,12 +3,95 @@
 
 <head>
     <meta charset=utf-8/>
+
+    <!-- link stylesheet -->
+    <link rel='stylesheet' href='style.css'>
+
+    <script src='js/d3.v6.1.1/d3.min.js'></script>
+
+    <title> hw-04 </title>
+
+
 </head>
 
 
 <body>
+    <h2 id='centered_header'> hw-04: Event Handling </h2>
 
+    <div class="flex-box">
+
+        <!-- left column -->
+        <div class="column" id='left_col'> 
+
+            <div id='plot'></div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="column" id='right_col'> 
+
+            <form>
+
+            <p1 id='last_point'> Last Point Clicked: </p1>
+
+            <br>
+
+            <p1>Choose your desired x coordinate!</p1>
+            <select id="input_x">
+              <option> 1 </option>
+              <option> 2 </option>
+              <option> 3 </option>
+              <option> 4 </option>
+              <option> 5 </option>
+              <option> 6 </option>
+              <option> 7 </option>
+              <option> 8 </option>
+              <option> 9 </option>
+            </select>
+
+            <br>
+ 
+            <p1>Choose your desired y_coordinate!.</p1>
+            <select id="input_y">
+              <option> 1 </option>
+              <option> 2 </option>
+              <option> 3 </option>
+              <option> 4 </option>
+              <option> 5 </option>
+              <option> 6 </option>
+              <option> 7 </option>
+              <option> 8 </option>
+              <option> 9 </option>
+            </select>
+
+            <br>
+            <br>
+            <button type='button' onClick='add_point()'>Add chosen point!</button>
+
+        </form>
+
+        </div>
+
+
+    </div>
+    <!-- lnclude js -->
+    <script src='js/main.js'></script>
 
 </body>
+
+<h3 id='ack'> Acknowledgements</h3>
+
+<div> 
+
+    <ul> 
+
+        <li> ... </li>
+
+        <li> ... </li>
+
+
+    </ul>
+
+</div>
 
 </html>
